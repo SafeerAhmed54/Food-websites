@@ -1,0 +1,29 @@
+{
+  "name": "food-websites",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "next": "^16.0.0",
+    "node-cron": "^4.2.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "simple-git": "^3.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "@types/node-cron": "^3.0.11",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "typescript": "^5.9.3"
+  }
+}
