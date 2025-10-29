@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "commitTime": "0 18 * * *",
+  "messageTemplate": "chore: daily auto-commit - {summary}",
+  "excludePatterns": [
+    "node_modules/**",
+    ".git/**",
+    "*.log",
+    ".env*",
+    "dist/**",
+    "build/**",
+    ".next/**",
+    "coverage/**",
+    "*.tmp",
+    "*.temp"
+  ],
+  "logLevel": "info",
+  "maxCommitMessageLength": 72,
+  "retryAttempts": 3,
+  "retryDelayMs": 5000
+}
