@@ -29,7 +29,7 @@ export interface GitManager {
   getChangedFiles(): Promise<string[]>;
   createCommit(message: string): Promise<string>;
   isRepositoryClean(): Promise<boolean>;
-  generateCommitMessage(files: string[]): string;
+  generateCommitMessage(files: string[], customTemplate?: string): string;
 }
 
 /**
