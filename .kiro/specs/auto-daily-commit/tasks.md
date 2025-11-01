@@ -49,7 +49,6 @@
 
 - [x] 5. Implement Git operations manager
 
-
 - [x] 5.1 Create GitManager class with safety checks
 
   - Write methods to check for uncommitted changes
@@ -78,19 +77,17 @@
   - Test error handling scenarios
   - _Requirements: 1.1, 1.2, 2.1, 5.1_
 
-- [-] 6. Create scheduling service
+- [x] 6. Create scheduling service
 
 
-
-- [-] 6.1 Implement Scheduler class with node-cron
-
+- [x] 6.1 Implement Scheduler class with node-cron
 
   - Write scheduler to handle daily cron jobs
   - Add methods to start, stop, and check scheduler status
   - Implement configuration-based schedule updates
   - _Requirements: 3.1, 3.2, 3.3, 4.4_
 
-- [ ] 6.2 Handle missed executions and startup behavior
+- [x] 6.2 Handle missed executions and startup behavior
 
   - Implement logic to execute commit on startup if missed
   - Add graceful handling of system downtime
