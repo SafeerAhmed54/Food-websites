@@ -78,8 +78,12 @@
   - Test error handling scenarios
   - _Requirements: 1.1, 1.2, 2.1, 5.1_
 
-- [ ] 6. Create scheduling service
-- [ ] 6.1 Implement Scheduler class with node-cron
+- [-] 6. Create scheduling service
+
+
+
+- [-] 6.1 Implement Scheduler class with node-cron
+
 
   - Write scheduler to handle daily cron jobs
   - Add methods to start, stop, and check scheduler status
