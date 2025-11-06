@@ -23,7 +23,8 @@
   - Implement environment variable overrides
   - _Requirements: 4.1, 4.2, 4.3, 4.4_
 
-- [ ]\* 3.2 Write unit tests for configuration loading
+- [x] 3.2 Write unit tests for configuration loading
+
 
   - Test configuration file loading and validation
   - Test default configuration fallback
@@ -78,7 +79,6 @@
   - _Requirements: 1.1, 1.2, 2.1, 5.1_
 
 - [x] 6. Create scheduling service
-
 
 - [x] 6.1 Implement Scheduler class with node-cron
 
