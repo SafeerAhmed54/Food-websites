@@ -25,7 +25,6 @@
 
 - [x] 3.2 Write unit tests for configuration loading
 
-
   - Test configuration file loading and validation
   - Test default configuration fallback
   - Test environment variable overrides
@@ -41,7 +40,8 @@
   - Add timestamp and metadata support
   - _Requirements: 6.1, 6.2, 6.3, 6.4_
 
-- [ ]\* 4.2 Write unit tests for logging functionality
+- [-] 4.2 Write unit tests for logging functionality
+
 
   - Test log level filtering
   - Test file rotation behavior
