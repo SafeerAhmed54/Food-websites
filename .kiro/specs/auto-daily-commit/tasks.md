@@ -71,7 +71,13 @@
   - Include commit hash extraction and logging
   - _Requirements: 1.2, 1.4, 5.1, 5.2_
 
-- [ ]\* 5.4 Write unit tests for Git operations
+- [x] 5.4 Write unit tests for Git operations
+
+
+
+
+
+
 
   - Test change detection with mocked Git commands
   - Test commit message generation logic
