@@ -1,0 +1,6 @@
+{
+  "isActive": true,
+  "cronExpression": "0 9 * * *",
+  "missedExecutions": [],
+  "nextRun": "2025-11-11T04:00:00.000Z"
+}
