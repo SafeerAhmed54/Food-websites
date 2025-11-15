@@ -59,6 +59,7 @@ export interface Logger {
   debug(message: string, metadata?: Record<string, any>): void;
   error(message: string, metadata?: Record<string, any>): void;
   getLogEntries(days?: number): Promise<LogEntry[]>;
+  setLogLevel(level: LogLevel): void;
 }
 
 // ============================================================================

@@ -249,7 +249,7 @@ export class AutoCommitService implements IAutoCommitService {
         const repoInfo = await this.gitManager.getRepositoryInfo();
         const warningMessage = `Repository is not in a clean state (${repoInfo.state}), skipping auto-commit`;
         
-        this.logger.warn(warningMessage, {
+        this.logger.info(warningMessage, {
           state: repoInfo.state,
           currentBranch: repoInfo.currentBranch
         });

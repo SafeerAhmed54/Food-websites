@@ -40,10 +40,28 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
-      "page": "/api/test-logger",
-      "regex": "^/api/test\\-logger(?:/)?$",
+      "page": "/api/auto-commit",
+      "regex": "^/api/auto\\-commit(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/api/test\\-logger(?:/)?$"
+      "namedRegex": "^/api/auto\\-commit(?:/)?$"
+    },
+    {
+      "page": "/api/auto-commit/history",
+      "regex": "^/api/auto\\-commit/history(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auto\\-commit/history(?:/)?$"
+    },
+    {
+      "page": "/api/auto-commit/status",
+      "regex": "^/api/auto\\-commit/status(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auto\\-commit/status(?:/)?$"
+    },
+    {
+      "page": "/api/auto-commit/trigger",
+      "regex": "^/api/auto\\-commit/trigger(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auto\\-commit/trigger(?:/)?$"
     }
   ],
   "dataRoutes": [],

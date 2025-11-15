@@ -155,7 +155,7 @@ export class GitManager implements IGitManager {
         }
         
         if (attempt < maxRetries) {
-          defaultLogger.warn('Commit attempt failed, retrying', { 
+          defaultLogger.info('Commit attempt failed, retrying', { 
             attempt, 
             maxRetries, 
             error: (error as Error).message,
@@ -357,7 +357,7 @@ export class GitManager implements IGitManager {
       const { stdout } = await this.executeGitCommand(`diff-tree --no-commit-id --name-only -r ${commitHash}`);
       return stdout.trim().split('\n').filter(line => line.length > 0);
     } catch (error) {
-      defaultLogger.warn('Failed to get changed files from commit', { 
+      defaultLogger.info('Failed to get changed files from commit', { 
         commitHash, 
         error: (error as Error).message 
       });

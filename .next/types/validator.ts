@@ -56,10 +56,37 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
-// Validate ../../src/app/api/test-logger/route.ts
+// Validate ../../src/app/api/auto-commit/history/route.ts
 {
-  type __IsExpected<Specific extends RouteHandlerConfig<"/api/test-logger">> = Specific
-  const handler = {} as typeof import("../../src/app/api/test-logger/route.js")
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/auto-commit/history">> = Specific
+  const handler = {} as typeof import("../../src/app/api/auto-commit/history/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/api/auto-commit/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/auto-commit">> = Specific
+  const handler = {} as typeof import("../../src/app/api/auto-commit/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/api/auto-commit/status/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/auto-commit/status">> = Specific
+  const handler = {} as typeof import("../../src/app/api/auto-commit/status/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/api/auto-commit/trigger/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/auto-commit/trigger">> = Specific
+  const handler = {} as typeof import("../../src/app/api/auto-commit/trigger/route.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

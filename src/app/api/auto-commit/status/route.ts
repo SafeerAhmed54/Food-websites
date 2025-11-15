@@ -41,7 +41,7 @@ export async function GET() {
       repository: {
         currentBranch: repoInfo.currentBranch,
         state: repoInfo.state,
-        hasUncommittedChanges: repoInfo.hasUncommittedChanges,
+        hasUncommittedChanges: repoInfo.hasChanges,
       },
     });
   } catch (error) {

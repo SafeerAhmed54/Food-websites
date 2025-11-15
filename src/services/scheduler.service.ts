@@ -82,8 +82,6 @@ export class Scheduler implements IScheduler {
             stack: error instanceof Error ? error.stack : undefined
           });
         }
-      }, {
-        scheduled: false // Don't start immediately
       });
 
       // Update state

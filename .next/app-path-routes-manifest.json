@@ -1,6 +1,9 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
-  "/api/test-logger/route": "/api/test-logger",
+  "/api/auto-commit/history/route": "/api/auto-commit/history",
+  "/api/auto-commit/route": "/api/auto-commit",
+  "/api/auto-commit/status/route": "/api/auto-commit/status",
+  "/api/auto-commit/trigger/route": "/api/auto-commit/trigger",
   "/page": "/"
 }

@@ -1,6 +1,9 @@
 {
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/api/test-logger/route": "app/api/test-logger/route.js",
+  "/api/auto-commit/history/route": "app/api/auto-commit/history/route.js",
+  "/api/auto-commit/route": "app/api/auto-commit/route.js",
+  "/api/auto-commit/status/route": "app/api/auto-commit/status/route.js",
+  "/api/auto-commit/trigger/route": "app/api/auto-commit/trigger/route.js",
   "/page": "app/page.js"
 }

@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable instrumentation hook for service initialization
-  experimental: {
-    instrumentationHook: true,
-  },
+  // Instrumentation hook is enabled by default in Next.js 16+
 }
 
 module.exports = nextConfig
